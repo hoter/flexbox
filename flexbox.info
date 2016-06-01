@@ -1,0 +1,21 @@
+name        = Flexbox
+description = Flexbox theme
+core        = 7.x
+engine      = phptemplate
+
+regions[sidebar_first]     = Sidebar first
+regions[sidebar_second]    = Sidebar second
+
+regions[header]            = Header
+regions[menu_bar]          = Menu Bar
+regions[help]              = Help
+
+regions[highlighted]       = Highlighted
+regions[content]           = Main content
+regions[content_aside]     = Content bottom
+
+regions[footer]            = Footer
+
+regions[page_top]          = Page top
+regions[page_bottom]       = Page bottom
+  
