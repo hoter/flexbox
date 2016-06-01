@@ -3,6 +3,9 @@ description = Flexbox theme
 core        = 7.x
 engine      = phptemplate
 
+stylesheets[all][] = css/normalize.css
+stylesheets[all][] = css/style.css
+
 regions[sidebar_first]     = Sidebar first
 regions[sidebar_second]    = Sidebar second
 
