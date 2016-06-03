@@ -1,7 +1,19 @@
 <div id="page">
-    <section>
-        <?php print render($page['content']); ?>
-    </section>
+    <main>
+        <div id="content">
+            <?php print render($page['content']); ?>
+        </div>
+        <?php if ($page['sidebar_first']): ?>
+            <aside id="sidebar_first">
+                <?php print render($page['sidebar_first']); ?>
+            </aside>
+        <?php endif; ?>
+        <?php if ($page['sidebar_second']): ?>
+            <aside id="sidebar_second">
+                <?php print render($page['sidebar_second']); ?>
+            </aside>
+        <?php endif; ?>
+    </main>
 
     <?php if ($page['header']): ?>
         <header>

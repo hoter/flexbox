@@ -13,11 +13,25 @@ header {
     order: 0;
 }
 
-section {
+main {
+    display: flex;
     order: 1;
     flex: 1;
+    flex-direction: row;
 }
 
 footer {
+    order: 2;
+}
+
+#sidebar_first {
+    order: 0;
+}
+
+#content {
+    order: 1;
+}
+
+#sidebar_second {
     order: 2;
 }
