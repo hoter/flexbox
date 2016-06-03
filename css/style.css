@@ -1,0 +1,23 @@
+body {
+    min-height: 100vh;
+}
+
+#page {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    min-height: 100vh;
+}
+
+header {
+    order: 0;
+}
+
+section {
+    order: 1;
+    flex: 1;
+}
+
+footer {
+    order: 2;
+}
