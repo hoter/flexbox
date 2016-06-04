@@ -1,4 +1,10 @@
 <div id="page">
+    <?php if ($page['header']): ?>
+        <header id="header">
+            <?php print render($page['header']); ?>
+        </header>
+    <?php endif; ?>
+
     <main>
         <div id="content">
             <?php print render($page['content']); ?>
@@ -14,15 +20,9 @@
             </aside>
         <?php endif; ?>
     </main>
-
-    <?php if ($page['header']): ?>
-        <header>
-            <?php print render($page['header']); ?>
-        </header>
-    <?php endif; ?>
     
     <?php if ($page['footer']): ?>
-        <footer>
+        <footer id="footer">
             <?php print render($page['footer']); ?>
         </footer>
     <?php endif; ?>
